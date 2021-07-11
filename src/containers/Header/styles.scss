@@ -1,0 +1,15 @@
+@import '@styles/variables';
+
+.header-container {
+	width: 100%;
+	// padding-top: $p-small;
+	background-color: $yellow;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80px;
+	.logo-img {
+		height: 40px;
+		margin-right: $p-big;
+	}
+}

@@ -1,0 +1,25 @@
+@import '@styles/variables';
+@import '@styles/mixins';
+
+.search-container {
+	width: 60vw;
+	// background-color: azure;
+	.searchbox {
+		@include font-normal(18px);
+		border: none;
+		width: 100%;
+		height: 40px;
+		border-radius: $br-small;
+
+		padding-left: $p-normal;
+	}
+	.searchbox:focus {
+		// outline: 1px solid $gray;
+		border-radius: $br-small;
+	}
+	.searchbox:focus-visible {
+		outline: 0;
+		outline-offset: 0px;
+		// box-shadow: 0 0 3pt 2pt red;
+	}
+}

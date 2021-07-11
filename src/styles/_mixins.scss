@@ -1,0 +1,15 @@
+@mixin reset-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+@mixin font-normal($size) {
+	font-family: 'Proxima Nova';
+	font-size: $size;
+}
+
+@mixin font-bold($size) {
+	font-family: 'Proxima Nova Bold';
+	font-size: $size;
+}

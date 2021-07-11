@@ -1,0 +1,21 @@
+// tsconfig.paths.json
+{
+    "compilerOptions": {
+      "baseUrl": "./src",
+      "paths": {
+        "@assets/*": ["./assets/*"],
+        "@components/*": ["./components/*"],
+        "@config/*": ["./config/*"],
+        "@containers/*": ["./containers/*"],
+        "@interfaces/*": ["./interfaces/*"],
+        "@layouts/*": ["./layouts/*"],
+        "@pages/*": ["./pages/*"],
+        "@providers/*": ["./providers/*"],
+        "@routes/*": ["./routes/*"],
+        "@services/*": ["./services/*"],
+        "@styles/*": ["./styles/*"],
+        "@utils/*": ["./utils/*"]
+      }
+    }
+  }
+  
